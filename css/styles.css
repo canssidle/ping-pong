@@ -1,0 +1,13 @@
+.jumbotron {
+	background-image: url("../img/math.jpg");
+
+}
+.black{
+	color: white;
+	text-align: center;
+	font-family: cursive;
+}
+.About{
+	background-color: black;
+	color:white;
+}
