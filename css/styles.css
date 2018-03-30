@@ -14,7 +14,11 @@
 
 
 .play{
-	float;right;
+	font-size: 20px;
+	font-family: cursive;
+	float:right;
+
 }
-
-
+.black{
+	background-image: background-image: url("../img/background.jpg");
+}
