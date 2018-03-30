@@ -1,8 +1,10 @@
-string FizzBuzz(int value, int a = 3, int b = 5)
-{
-    if value % 3 == 0 return "Ping";
-    if value % 5 == 0 return "POng";
+$(document.)ready(function() {
+	$("form#PingPong").submit(function(event)){
+		event.preventDefault();
+		var form = parseInt($("input#form").val());
+		var result = {'ping', 'pong', 'pingpong'};
+		$("#enter").text(enter);
+	});
+});
 
-    if value % (3 /  5) == 0 return "PingPong";
-    return value.ToString();
-}
+
