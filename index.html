@@ -7,20 +7,22 @@
 	<title>Ping-Pong</title>
 </head>
 
+
+
 <body>
-	<div class="red">
+	<div id = project>
 	<div class="container-fluid">
 	<header class="jumbotron">
 	<div class="black">
 
 	<h1>Ping-Pong</h1>
 	</header>
+	
 	</div>
-	</div>
-	</div>
-  <div id="grey">
+	
+  
 
-  <div class="col-md-4 About">
+  <div class="col-md-4 About" red>
   	<h1>About Ping Pong</h1>
   <br />
   	<h4>Created by:</h4>
@@ -34,39 +36,38 @@
   	<h4>Level 1 Test for:</h4>
   <br />
   	<h6>Java</h6>
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  </div>
-  <div class="well">
-  <div class="col-md-8 play">
+  	</div>
+  <br />
+  
+<div class = "play">
   <h3>Let's play!</h3>
   <h6>Rule</h6>
   <br />
   <p>Ping Pong will count up to your number from 1 with followin expectations:</p>
-  <ol>
+  <ol id="pingponglist">
   	<li>Numbers divisible by 3 become "ping"</li>
   	<li>Number divisible by 5 become "pong" </li>
   	<li>Number divisible by 3 and 5 become "pingpong"</li>
   </ol>
   <form id="pingPongForm">
   <label for="">Enter your number here</label>
-  <input type="number" form-control"
-  id="enter" required>
+  <input type="text" form-control"
+  id="num" required>
 
   <button class="btn btn-danger" id="PingPong">PingPong!</button>
   </form>
-  </div>
-  </div>
+  <br />
+  
+  
+  
   </div>
 
-
-
+</div>
+</div>
 
 	<script type="js/jquery-3.3.1.js"></script>
 	<script type="js/scripts.js"></script>
-
+</div>
+ 
 </body>
 </html>
