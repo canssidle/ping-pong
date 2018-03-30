@@ -6,5 +6,19 @@ $(document.)ready(function() {
 		$("#enter").text(enter);
 	});
 });
+var form = function(pingpong){
+	if(number % 3 === 0){
+		return ping;
 
+	});
 
+var form = function(pingpong){
+	if(number % 5 === 0){
+		return pong;
+		
+});
+var form = function(pingpong){
+	if(number % 3 , 5=== 0){
+		return pingping;
+		
+	});
