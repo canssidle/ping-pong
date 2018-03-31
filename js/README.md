@@ -24,4 +24,4 @@ If any complications occur email me at canssidlewairimu@gmail.com.
 
 ### License
 *MIT.*
-* Copyright (c) 2018 Canssidle.
+* Copyright (c) 2018 Canssidle
