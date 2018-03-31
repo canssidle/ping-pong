@@ -28,9 +28,9 @@ $(document).ready(function(){
    event.preventDefault();
    var inputNum=parseInt($("input#num").val());
    var PingPongArray=getPingPongArray(inputNum);
-   $("ol#pingponglist").empty();
+   $("ul#pingponglist").empty();
    PingPongArray.forEach(function(item){
-     $("ol#pingponglist").append("<li>"+item+"</li>");
+     $("ul#pingponglist").append("<li>"+item+"</li>");
    )};
  )};
 )};
