@@ -19,18 +19,21 @@ function getPingPongArray(inputNum){
      PingPongArray.push(i);
    }
  }
+ 
  return PingPongArray
 }
 
 //front end
 $(document).ready(function(){
- $("form#pingpong").submit(function(event){  
+
+ $("#pingpongForm").submit(function(event){  
    event.preventDefault();
+    $('div.pingpongForm').trigger('click'); 
    var inputNum=parseInt($("input#num").val());
    var PingPongArray=getPingPongArray(inputNum);
-   $("ul#pingponglist").empty();
+   $("ol#pingponglist").empty();
    PingPongArray.forEach(function(item){
-     $("ul#pingponglist").append("<li>"+item+"</li>");
+     $("ol#pingponglist").append("<li>"+item+"</li>").html(c))
    )};
  )};
 )};
