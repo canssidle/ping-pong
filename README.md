@@ -9,7 +9,7 @@ This is a website designed in form of a game.The user is supposed to enter a num
 * Git clone this repo or download the zip file and open index.html with your browser.
 
 ## live Demo
-* file:///home/canssidle/moringa-school-projects/ping-pong/index.html
+*https://canssidle.github.io/ping-pong/
 
 ## Known Bugs 
 * No Bugs
