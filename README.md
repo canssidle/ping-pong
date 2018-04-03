@@ -22,6 +22,12 @@ This is a website designed in form of a game.The user is supposed to enter a num
 ## Support and contact details
 If any complications occur email me at canssidlewairimu@gmail.com.
 
+<<<<<<< HEAD
 ### License
 *MIT.*
 * Copyright (c) 2018 Canssidle.
+=======
+### License.
+*MIT.*
+* Copyright (c) 2018 Canssidle.
+>>>>>>> 31896129ee8bf4ed2fd40d5c54a48ce1312c22a2
